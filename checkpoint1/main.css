@@ -1,0 +1,81 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    width: 500px;
+}
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-bottom: 30px;
+    width: 500px;
+}
+    .red-one p {
+        background-color: red;
+    }
+    .blue-one p {
+        background-color: blue;
+    }
+    .yellow-one p {
+        background-color: yellow;
+    }
+   
+.gridThree {
+    display: grid;
+    grid-row: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+    background-color: lightgray;
+    margin-bottom: 30px;
+}
+    .gridThree img {
+        width: 500px;
+        height: 225px;
+        object-fit: cover;
+    }
+.gridFour {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: green;
+    margin-bottom: 30px;
+}
+#four-texts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.gridFive {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: lightgray;
+    margin-bottom: 30px;
+}
+    .five-images {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .five-images img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .five-text {
+        margin-bottom: 100px;
+    }
+    .five-images {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgray;
+    font-family: "Lobster", sans-serif;
+}
+    .gridSix-content {
+        
+    }
+
